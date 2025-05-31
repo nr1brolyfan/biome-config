@@ -1,5 +1,5 @@
 
-# Biome Config for RayPeatLibrary
+# Biome Config
 
 ## What is Biome?
 
@@ -15,7 +15,7 @@ Biome is a performant toolchain for web projects that replaces both ESLint and P
 
 2. Install this configuration package:
    ```bash
-   bun add -D @raypeatlibrary/biome-config
+   bun add -D @broly/biome-config
    ```
 
 3. Initialize Biome in your project:
