@@ -1,0 +1,16 @@
+{
+  "name": "@broly/biome-config",
+  "version": "1.0.0",
+  "main": "biome.jsonc",
+  "exports": {
+    ".": "./biome.jsonc"
+  },
+  "keywords": ["biome", "config"],
+  "author": "nr1BrolyFan",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
+  },
+  "trustedDependencies": ["@biomejs/biome"]
+}
