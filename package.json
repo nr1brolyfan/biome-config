@@ -1,5 +1,5 @@
 {
-  "name": "@broly/biome-config",
+  "name": "@nr1broly/biome-config",
   "version": "1.0.0",
   "main": "biome.jsonc",
   "exports": {
