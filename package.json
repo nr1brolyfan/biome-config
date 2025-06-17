@@ -5,7 +5,7 @@
     "@biomejs/biome": "2.0.0"
   },
   "exports": {
-    ".": "./biome.jsonc"
+    "./biome": "./biome.jsonc"
   },
   "keywords": [
     "biome",
@@ -14,8 +14,9 @@
   "license": "MIT",
   "main": "biome.jsonc",
   "name": "@itsbroly/biome-config",
+  "type": "module",
   "trustedDependencies": [
     "@biomejs/biome"
   ],
-  "version": "1.1.0"
+  "version": "1.1.1"
 }
