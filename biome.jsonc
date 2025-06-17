@@ -1,33 +1,50 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
-  "vcs": {
-    "enabled": false,
-    "clientKind": "git",
-    "useIgnoreFile": false,
-    "defaultBranch": "main"
+  "$schema": "https://biomejs.dev/schemas/2.0.0/schema.json",
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "on",
+        "useSortedAttributes": "on",
+        "useSortedKeys": "on",
+        "useSortedProperties": "on"
+      }
+    }
   },
   "files": {
     "ignoreUnknown": false,
-    "ignore": []
+    "includes": ["**"]
   },
   "formatter": {
-    "ignore": ["*.cmd", "*.bat"],
-    "enabled": true,
-    "indentStyle": "space",
-    "indentWidth": 2,
-    "lineWidth": 80,
     "attributePosition": "auto",
     "bracketSpacing": true,
+    "enabled": true,
     "formatWithErrors": true,
-    "lineEnding": "lf"
+    "includes": ["**", "!**/*.cmd", "!**/*.bat"],
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineEnding": "lf",
+    "lineWidth": 80
   },
-  "organizeImports": {
-    "enabled": true
+  "html": {
+    "formatter": {
+      "enabled": true
+    }
+  },
+  "javascript": {
+    "formatter": {
+      "arrowParentheses": "always",
+      "bracketSameLine": false,
+      "bracketSpacing": true,
+      "jsxQuoteStyle": "double",
+      "quoteProperties": "asNeeded",
+      "quoteStyle": "single",
+      "semicolons": "always",
+      "trailingCommas": "es5"
+    }
   },
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true,
       "complexity": {
         "noUselessStringConcat": "error",
         "noUselessUndefinedInitialization": "error",
@@ -37,35 +54,40 @@
       "correctness": {
         "noConstantMathMinMaxClamp": "error",
         "noUndeclaredVariables": "error",
-        "noUnusedImports": "error",
         "noUnusedFunctionParameters": "error",
+        "noUnusedImports": "error",
         "noUnusedPrivateClassMembers": "error",
-        "useExhaustiveDependencies": "error",
         "noUnusedVariables": "error",
-        "useArrayLiterals": "error"
+        "useExhaustiveDependencies": "error"
       },
+      "recommended": true,
       "style": {
+        "noInferrableTypes": "error",
+        "noParameterAssign": "error",
+        "noUnusedTemplateLiteral": "error",
+        "noUselessElse": "error",
         "noYodaExpression": "error",
+        "useArrayLiterals": "error",
+        "useAsConstAssertion": "error",
         "useConsistentBuiltinInstantiation": "error",
+        "useDefaultParameterLast": "error",
+        "useEnumInitializers": "error",
         "useFragmentSyntax": "error",
-        "useShorthandAssign": "error"
+        "useNumberNamespace": "error",
+        "useSelfClosingElements": "error",
+        "useShorthandAssign": "error",
+        "useSingleVarDeclarator": "error"
       },
       "suspicious": {
-        "useAwait": "error",
-        "noEvolvingTypes": "error"
+        "noEvolvingTypes": "error",
+        "useAwait": "error"
       }
     }
   },
-  "javascript": {
-    "formatter": {
-      "quoteStyle": "single",
-      "quoteProperties": "asNeeded",
-      "arrowParentheses": "always",
-      "bracketSpacing": true,
-      "trailingCommas": "es5",
-      "semicolons": "always",
-      "jsxQuoteStyle": "double",
-      "bracketSameLine": false
-    }
+  "vcs": {
+    "clientKind": "git",
+    "defaultBranch": "main",
+    "enabled": false,
+    "useIgnoreFile": false
   }
 }

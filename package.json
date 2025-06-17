@@ -1,16 +1,21 @@
 {
-  "name": "@itsbroly/biome-config",
-  "version": "1.0.0",
-  "main": "biome.jsonc",
+  "author": "itsbroly",
+  "description": "",
+  "devDependencies": {
+    "@biomejs/biome": "2.0.0"
+  },
   "exports": {
     ".": "./biome.jsonc"
   },
-  "keywords": ["biome", "config"],
-  "author": "itsbroly",
+  "keywords": [
+    "biome",
+    "config"
+  ],
   "license": "MIT",
-  "description": "",
-  "devDependencies": {
-    "@biomejs/biome": "1.9.4"
-  },
-  "trustedDependencies": ["@biomejs/biome"]
+  "main": "biome.jsonc",
+  "name": "@itsbroly/biome-config",
+  "trustedDependencies": [
+    "@biomejs/biome"
+  ],
+  "version": "1.1.0"
 }
