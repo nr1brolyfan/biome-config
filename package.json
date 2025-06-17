@@ -13,9 +13,9 @@
   ],
   "license": "MIT",
   "name": "@itsbroly/biome-config",
-  "type": "module",
   "trustedDependencies": [
     "@biomejs/biome"
   ],
+  "type": "module",
   "version": "1.1.1"
 }

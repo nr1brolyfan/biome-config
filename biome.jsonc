@@ -8,11 +8,17 @@
         "useSortedKeys": "on",
         "useSortedProperties": "on"
       }
-    }
+    },
+    "includes": [
+      "**",
+      "!**/package.json",
+      "!**/wrangler.json*",
+      "!**/tsconfig.json*"
+    ]
   },
   "files": {
     "ignoreUnknown": false,
-    "includes": ["**"]
+    "includes": ["**", "!**/worker-configuration.d.ts"]
   },
   "formatter": {
     "attributePosition": "auto",
