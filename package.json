@@ -1,12 +1,12 @@
 {
-  "name": "@nr1broly/biome-config",
+  "name": "@itsbroly/biome-config",
   "version": "1.0.0",
   "main": "biome.jsonc",
   "exports": {
     ".": "./biome.jsonc"
   },
   "keywords": ["biome", "config"],
-  "author": "nr1BrolyFan",
+  "author": "itsbroly",
   "license": "MIT",
   "description": "",
   "devDependencies": {

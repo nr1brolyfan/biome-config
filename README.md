@@ -15,7 +15,7 @@ Biome is a performant toolchain for web projects that replaces both ESLint and P
 
 2. Install this configuration package:
    ```bash
-   bun add -D @nr1broly/biome-config
+   bun add -D @itsbroly/biome-config
    ```
 
 3. Initialize Biome in your project:
@@ -25,7 +25,7 @@ Biome is a performant toolchain for web projects that replaces both ESLint and P
 
 4. Extend your `biome.json` file:
     ```json
-    "extends": ["@nr1broly/biome-config"],
+    "extends": ["@itsbroly/biome-config"],
     ```
 
 
