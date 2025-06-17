@@ -12,7 +12,6 @@
     "config"
   ],
   "license": "MIT",
-  "main": "biome.jsonc",
   "name": "@itsbroly/biome-config",
   "type": "module",
   "trustedDependencies": [
